@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(23,23,23);
+    color: white;
+}
+
+header{
+   
+    border-radius: 10px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 2px 2px 13px rgb(69, 66, 66) , inset 2px 2px 13px rgb(69, 66, 66);
+}
+
+form{
+
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+form input{
+    box-shadow: inset 2px 2px 13px rgb(97, 78, 78) , inset 2px 2px 13px rgb(97, 78, 78);
+    width: 100ch;
+    padding: .5rem .1rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 10px;
+
+}
+
+form button{
+    border: 1px solid rgb(136, 108, 108);
+    box-shadow: 4px 4px 12px black;
+    background-color: gray;
+    color: white;
+    padding: .5rem 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+}
+
+
+form button:hover{
+    transform: scale(1.1);
+}
+
+#cardContainer{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#cardContainer div{
+  
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    filter: drop-shadow(4px 4px 10px 10px black);
+
+}
+
+a{
+    text-decoration: none;
+    color:  gray;
+    padding: 0.8rem 1rem;
+    box-shadow: inset 1px 1px 9px black , inset 2px 2px 9px black;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+}
+
+h2{
+    margin-top: 1rem;
+
+}
+
